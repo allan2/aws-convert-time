@@ -1,0 +1,10 @@
+[package]
+name = "aws-convert-time"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-smithy-types-convert = { version = "0.48", features = ["convert-chrono"] }
+aws-smithy-types = "0.48"
+aws-sdk-ec2 = "0.17"
+chrono = "0.4"
